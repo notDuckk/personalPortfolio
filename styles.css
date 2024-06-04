@@ -1,0 +1,152 @@
+/* body template */
+body {
+    text-align: center;
+    color:  #4E9F3D; 
+    background-color: #191A19;
+    
+}
+
+a {
+    border-radius: 10px;
+    display: flex;    
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 10px;
+    color: #4E9F3D;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+/* navigation bar blueprint
+ */
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 1.2em;
+    box-shadow: 0px 0px 10px #4E9F3D;
+    background-color: #191A19;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #D8E9A8;
+}
+
+.hello {
+    text-align: center;
+    animation-name: spinny;
+    animation-duration: 10s;
+    width: 10%;
+}
+/* special little animation for the work software to show off some skills */
+@keyframes spinny {
+    50% {transform:rotate(2000deg);}
+}
+
+
+/* make the animation to float the picture to show you that there links */
+@keyframes floatUp {
+    from{
+        transform:scale(1);
+    }
+    to {
+        transform: scale(1.024);
+    }
+}
+
+/* image blueprint */
+img{
+    max-width: 22em;
+    border-style: dashed;
+    border-color: #4E9F3D;
+    animation: floatUp;
+    
+    
+    
+}
+
+img:hover {
+    animation: floatUp 1s forwards;
+}
+
+.name {
+    display: flex;
+    margin-top: 20px;
+}
+
+.paragraph {
+    display: flex;
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.recipeproj {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.mainsection {
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.projectheader {
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+}
+
+.about {
+    display:flex;
+    justify-content: center;
+    text-decoration: underline;
+    
+}
+
+.aboutsection {
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.indexsection {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.githublogo {
+    width: 50px;
+}
+
+.hellofooter {
+    border-top: #4E9F3D 1px solid;
+    margin-top: 10px;
+   
+}
+
+@media (max-width: 600px){
+
+    .paragraph {
+        font-size: 1.2em;
+    }
+
+    .hello {
+        width: 30%
+    }
+
+}
+
+
+
+
+
+
+
+
+/* rgba(0,0,0,0.1); */
