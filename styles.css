@@ -2,8 +2,7 @@
 body {
     text-align: center;
     color:  #4E9F3D; 
-    background-color: #191A19;
-    
+    background-color: #191A19;   
 }
 
 a {
@@ -122,6 +121,7 @@ img:hover {
 
 .githublogo {
     width: 50px;
+    border: none;
 }
 
 .hellofooter {
